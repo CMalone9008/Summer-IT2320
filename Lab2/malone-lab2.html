@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Fibonacci Sequence</title> 
+   <body>Carl Malone - IT2320 - Lab 2</body>
+   <script>
+       "use strict"
+      var numFib = parseInt(prompt('Enter a number:'));
+      if(numFib < 3){
+        alert("The sequence must have 3 or more numbers.");
+      }
+      else{
+      var myFib = [];
+      myFib[0] = 0;
+      myFib[1] = 1;
+      var nextNumber;
+      console.log('Fib Series');
+      for (let i = 2; i <= nextNumber; i++){
+        console.log(myFib);
+    nextNumber = (myFib - 1) + (myFib - 2);
+    myFib[0] = myFib[1];
+    myFib[1] = nextNumber;
+  }      
+}
+</script>
+</head> 
+</html>
